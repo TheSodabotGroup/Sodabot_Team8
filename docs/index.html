@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<title>Sodabot: Putting the Beverage Experience in Balance</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body style="background-color:  #ffe6cc; max-width: 1080px; margin: auto; padding-bottom: 50px;" >
+
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centeredImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto; 
+  height: 30%; 
+  width: 65%;
+}
+
+.centeredTitle {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: Courier;
+  font-weight: bold;
+  text-shadow: -1px 0 #8b4f58, 0 1px #8b4f58, 1px 0 #8b4f58, 0 -1px #8b4f58;
+}
+
+.centeredSubTitle {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #ccefff;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.footercolumn {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.hyperImage
+{
+  opacity: 0.5
+}
+.hyperImage:hover
+{
+  opacity: 1.0
+}
+
+</style>
+
+
+<div class = "container">
+  <img src="images/crest.png" alt = "Crest" style="  display: block;margin: auto; 
+  width: 30%;">
+  <img src="images/blueRibbon.png" alt = "blueRibbon" class="centeredImage">
+  <div class="centeredTitle" >SODABOT</div>
+  <div class="centeredSubTitle" style="font-size: 16px" >The Inexpensive, Highly Customizable, Snack Delivering Household Robot
+</div>
+</div>
+
+<div>
+  <h2 style = "max-width: 800px; margin: auto;text-align:center; color: #8b4f58; font-weight: bold;">Welcome to the Page of the Next Big Thing in the Beverage Industry</h2>
+</div>
+
+<p></p>
+<div class="w3-row" style=" background-color: #578198; border-top: 2px solid #8b4f58;">
+  <a href="javascript:void(0)" onclick="openCity(event, 'Our Mission');">
+    <div class="w3-quarter tablink w3-hover-light-grey w3-padding" style = "border-bottom : 5px solid #8b4f58">Our Mission</div>
+  </a>
+  <a href="javascript:void(0)" onclick="openCity(event, 'Making of Sodabot');">
+    <div class="w3-quarter tablink w3-hover-light-grey w3-padding" style = "border-bottom : 5px solid white">The Making of Sodabot</div>
+  </a>
+  <a href="javascript:void(0)" onclick="openCity(event, 'Running Sodabot');">
+    <div class="w3-quarter tablink w3-hover-light-grey w3-padding" style = "border-bottom : 5px solid white">Running Sodabot</div>
+  </a>
+  <a href="javascript:void(0)" onclick="openCity(event, 'Graphs');">
+    <div class="w3-quarter tablink w3-hover-light-grey w3-padding"style = "border-bottom : 5px solid white">The Graphs of Sodabot</div>
+  </a>
+</div>
+
+
+<!-- <div style="margin-left:130px"> -->
+
+  <div id="Our Mission" class="w3-container city w3-animate-opacity">
+    <h2 style = "color: #8b4f58">We Proudly Present: Sodabot !</h2>
+    <p style="max-width: 900px; margin-left: 100px"> Our objective is to make autonomous household robots less wide and more vertical. With control capabilities that allow us to balance vertically structured robots on two wheels, we are capable of achieving tasks with less space on the ground.</p>
+    <p style="max-width: 900px; margin-left: 100px">Sodabot is the first iterration towards the realization of that task. With its unique vertical structure, it can house a can of cold refreshing beverage to be delivered to the comfort of your couch !</p>
+    <p style="max-width: 900px; margin-left: 100px">Now, even skipping the halftime commercials is no longer necessary. The reason ? Sodabot !</p>
+    <img src="images/sodabot_A.jpg" alt = "Meet Sodabot" style="  display: block;margin: auto;width: 35%; border: 5px solid #8b4f58">
+    <p style="text-align:center; font-style:italic"> Meet Sodabot !</p>
+    <h2 style = "color: #8b4f58">Meet the Team</h2> 
+    <div class = "row">
+      <img src="images/roger.jpg" alt = "roger" style="height: 20%; width: 20%; border: 5px solid #8b4f58" align="left" hspace="30">
+      <h3 style = "color: #8b4f58; padding-left: 10%;">Chi-Kuan Lin - chikuanl@umich.edu</h3>
+      <p style="font-style:italic">"Sometimes the solution lies in the old fashioned direction of using tape."</p>
+    </div>
+    <div class = "row">
+      <img src="images/emily.jpg" alt = "emily" style="height: 20%; width: 20%; border: 5px solid #8b4f58" align="left" hspace="30">
+      <h3 style = "color: #8b4f58; padding-left: 50px;">Emily Sheetz - esheetz@umich.edu</h3>
+      <p style="font-style:italic">"Our project comes Team 8 tested, Manni approved."</p>
+    </div>
+    <div class = "row">
+      <img src="images/joe.jpg" alt = "joseph" style="height: 20%; width: 20%; border: 5px solid #8b4f58"align="left" hspace="30">
+      <h3 style = "color: #8b4f58; padding-left: 100px;">Joseph Abrash - jabrash@umich.edu</h3>
+      <p style="font-style:italic">"Inspiration for mathematical derivations can come from the most unexpected of things like a Cottage Inn Pizza plastic plate."</p>
+    </div>
+    <div class = "row">
+      <img src="images/mohie.png" alt = "mohie" style="height: 20%; width: 20%; border: 5px solid #8b4f58" align="left" hspace="30">
+      <h3 style = "color: #8b4f58; padding-left: 50px;">Mohie Amine - mohie@umich.edu</h3>
+      <p style="font-style:italic">"Sodabot impresses in several domains: A robust control, an accurate localization, and a map runtime that lasts as long as the Mobile Robotics midterm."</p>
+    </div>
+    <div class = "row">
+      <img src="images/sodacan.jpg" alt = "jian" style="height: 20%; width: 20%; border: 5px solid #8b4f58" align="left" hspace="30">
+      <h3 style = "color: #8b4f58; padding-left: 50px;">Wei Jian - wwjian@umich.edu</h3>
+      <p style="font-style:italic">"Going up the dimensionality ladder from 2D to 3D is often very challenging. Thankfully, Bresenham's algorithm does not succumb to that rule, and generating 3D maps from Sodabot is now a reality."</p>
+    </div>
+  </div>
+
+  <div id="Making of Sodabot" class="w3-container city w3-animate-opacity" style="display:none">
+    <h2 style = "color: #8b4f58">The Making of Sodabot</h2>
+    <p style="max-width: 900px; margin-left: 100px">Sodabot was contructed on an acrylic plastic and aluminum chasis. It consists of a lower and a top chasis. The lower chasis houses the motors and the 12 volt battery that powers up Sodabot. The upper chasis houses an RPLidar A2 which provides the necessary sensor reading for Sodabot to map its surrounding and localize itself within it.</p> 
+    <p style="max-width: 900px; margin-left: 100px">Sodabot stems from two robots that are familiar within the robotics institute within UMich: Balancebot, and Mobilebot. Sodabot merges the two robotic systems by re-structuring the upper level of Balancebot, to introduce an RPLidar 2 similar to the upper chassis of Mobilebot. Adding an RPLidar imposes a second major change on the Balancebot's structure, which is the introduction of the Raspberry PI 3B chip alongside the already present Beaglebone Green chip. The team had to make a series of decisions on a) the placement of the chips in a secured and safe location, and b) the new upper chasis of the robot to house the RPLidar and its dependencies.</p>
+
+    <div class = "row">
+      <div style="float: left;width: 50%;padding: 5px;">
+        <img src="images/balancebot.png" alt = "balancebot" style="  display: block;margin: auto;width: 45%; border: 5px solid #8b4f58">
+        <p style="text-align:center; font-style:italic"> Balancebot - Sodabot's main structure is derived from this robot.</p> 
+      </div>
+      <div style="float: left;width: 50%;padding: 5px;">
+        <img src="images/mobilebot.png" alt = "mobilebot" style="  display: block;margin: auto;width: 73%; border: 5px solid #8b4f58">
+        <p style="text-align:center; font-style:italic"> Mobilebot - Sodabot's upper chasis and chips re-positioning targets the functionality of this robot.</p> 
+      </div>
+    </div>
+  
+
+    <div class = "row">
+      <div style="float: left;width: 50%;padding: 5px;">
+        <img src="images/cad.png" alt = "cad" style="  display: block;margin: auto;width: 73%; border: 5px solid #8b4f58">
+        <p style="text-align:center; font-style:italic"> Cad Design of the updated upper chasis of Sodabot.</p> 
+      </div>
+      <div style="float: left;width: 50%;padding: 5px;">
+        <img src="images/printed.jpg" alt = "printed" style="  display: block;margin: auto;width: 73%; border: 5px solid #8b4f58">
+        <p style="text-align:center; font-style:italic"> Laser printed plate of Sodabot's upper chasis.</p> 
+      </div>
+    </div>
+
+
+    <img src="images/i_try.png" alt = "rob_annotated" style="  display: block;margin: auto;width: 60%; border: 5px solid #8b4f58">
+    <p style="text-align:center; font-style:italic"> Finalized Design of the Sodabot. The main take-aways are the chips side mounts, and the entirely new upper chasis.</p> 
+
+    <h2 style = "color: #8b4f58">Acknowldegement</h2>
+    <p style="max-width: 900px; margin-left: 100px">This project is inspired by the two robotic systems Balancebot and Mobilebot of the course ROB550: Robotics Lab course at the University of Michigan. Sodabot's code infrastructure is an extension of the main scripts that are implemented in the two labs, and we credit the lab's code in that regards. We also acknowledge Professor <a href="https://robotics.umich.edu/profile/peter-gaskell/" style="color: #004b87; text-decoration:none; font-weight: bold;">Peter Gaskell</a> (pgaskell@umich.edu) for providing us with a Balancebot chassis and the necessary RPLidar A2 and Raspberry PI in order to realize Sodabot.</p>
+
+  </div>
+
+  </div>
+
+  <div id="Running Sodabot" class="w3-container city w3-animate-opacity" style="display:none;">
+    <h2 style = "color: #8b4f58">Running Sodabot</h2>
+    <p style="max-width: 900px; margin-left: 100px">Sodabot is operated by a Beaglebon Green and a Raspberry PI 3 chip. The two chips communicate over the <a href="https://github.com/lcm-proj/lcm" style="color: #004b87; text-decoration:none; font-weight: bold;">Lightweight Communications and Marshalling </a> system which handles the publishing and the reception of data acrross the chips as well towards the remotely operating laptop. Sodabot requires binaries to be running on each of the local laptop, the Beaglebone Green chip, and the Raspberry PI.</p>
+
+    <h2 style = "color: #8b4f58">Setting up the dependencies</h2>
+    <p style="max-width: 900px; margin-left: 100px">Sodabot's system needs LCM and its corresponding dependencies which include the Libbot, LibGUL, and Libboost libraries. The corresponding dependencies can be installed locally on the operating machines form the /Installations folder in the team's github repository. Make sure that the laptop runs Ubuntu 16.04 as the version of java on newer ubuntu version is not supported with LCM. To initiate the flow of LCM messages, the lcm tunnels should be opened up between the three systems. First, Multicast should be setup between the pi and Beaglebone on the Gateway 255.255.255.0. Then, the receiving LCM tunnel on the PI should be opened by running "bot-lcm-tunnel" and preferably allowing it to execute in the background. Finally, from the laptop, open the bot-lcm-tunnel based on the IP address that the Adafruit OLED chip is displaying. Similarly, ensure that the tunnel on the beaglebone is opened up on the ethernet static ip (should be setup to 192.168.1.1)</p>
+    <h2 style = "color: #8b4f58">The Beaglebone</h2>
+    <p style="max-width: 900px; margin-left: 100px">Sodabot's balancing and motion is executed within the Beaglebone. Moreover, the power to all Sodabot's systems is drawn from the Beaglebone's power input. The /Balance folder from the team's github page should then be placed within the Beaglebone. After compiling the code present within the file, running ./mobilebot within the bin folder should get the Sodabot at hand balancing straight away assuming the correct Pololu motors are connected to their correct positions on the UM Robotics Cape which connects to the Beaglebone.</p>
+
+    <h2 style = "color: #8b4f58">The Raspberry PI</h2>
+    <p style="max-width: 900px; margin-left: 100px">Sodabot's SLAM computation execute on a Raspberry PI 3 B chip. The SLAM runs a Monte-Carlo based localization (using particle filtering). To run the code on a Raspberry PI, the /SLAM folder from the team's github repo should be added into the PI whether via clone or scp. Code should be compiled with the argument "mbot-only" as the OpenGL-related binaries within the folder don't need to be compiled on the PI chip. On your local machine, complie the same folder with the argument "laptop-only". With ./mobilebot on the Beaglebone running, the next step is to set the shaders on the local machine by executing ". sentenv.sh" within the root of the /SLAM folder. Then, ./botgui should be executed from within the bin, opening up the graphics interface. Assuming LCM is properly setup, the gui shoud display the lidar lasers and the odometry readings of the robot. The last step is to execute ./slam from within the bin of the /SLAM folder on the PI. At this stage, if all successful, the gui should display the robot's map being formed. Further detail can be found within the code on our github page.</p>
+    
+
+    <p></p>
+  </div>
+
+  <div id="Graphs" class="w3-container city w3-animate-opacity" style="display:none">
+    <h2 style = "color: #8b4f58">The Graphs that Define Sodabot</h2>
+    <p style="max-width: 900px; margin-left: 100px">In its very core, Sodabot is a work of engineering that performs state-of-the-art SLAM fitted to accomodate for its Balancing action. Sodabot is fitted to account for the balancing effort and the noise it induces on the Lidar readings. It runs a projection logic to project the Lidar data it receives into their correct positions in the 2D plane that it localizes itself in.</p>
+    <img src="images/Compare_2D.png" alt = "2D_Map" style="  display: block;margin: auto;height: 45%; width: 45%; border: 5px solid #8b4f58">
+    <p style="text-align:center; font-style:italic"> Sodabot's 2D map in which Sodabot maps its environment and localizes itself in. Map was constructed with Lidar ray projection.</p> 
+    <img src="images/Compare_3D_b.png" alt = "3D_Map_B" style="  display: block;margin: auto;height: 45%; width: 45%; border: 5px solid #8b4f58"> 
+    <p style="text-align:center; font-style:italic"> A Top-down view of the obtained 3D map utilizing the balancing nature of the robot. Map shows consistency with the 2D map.</p> 
+    <img src="images/Compare_3D_a.png" alt = "3D_Map_A" style="  display: block;margin: auto;height: 45%; width: 45%; border: 5px solid #8b4f58">
+    <p style="text-align:center; font-style:italic"> A perspective view of the 3D map, displaying construction of discrete map layers in 3D space.</p> 
+    <h2 style = "color: #8b4f58">Proof of Operation</h2>
+    <p style="max-width: 900px; margin-left: 100px">Unlike the software-based trend in the UM Course ROB530 - Mobile Robotics, Sodabot is a hardware-based project that is a proof of concept and a physical application of the state of the art. Confirming the functionality of the original aspects of the work is immediately correlated to a physical demonstration of the robot. The robot was presented with all its functionalities operating during the class presentation on 04/18/19. For the sake of completion, we provide a map of our very own ROB530 Class, which was mapped and driven around using Sodabot !</p> 
+    <img src="images/class_marked.png" alt = "mapp_tags" style="  display: block;margin: auto;height: 45%; width: 45%; border: 5px solid #8b4f58">
+    <p style="text-align:center; font-style:italic"> Annotated Map Drawn by the Sodabot of the ROB530 Classroom Area</p> 
+    <h2 style = "color: #8b4f58">Future Direction</h2>
+    <p style="max-width: 900px; margin-left: 100px">Sodabot needs a 2D map in order to localize itself. The inverse SLAM sensor model fitted on the robot currently utilizes the nature of the grid cells exclusively within the projected occupancy grid. The project's latest milestone represented by achieving 3D mapping is the needed cornerstone that ensures that SLAM can be performed in the 3D space.</p>
+
+  </div>
+
+  <footer style = "font-style:italic; font-size: 16px;">
+    <p style="text-align:center; background-color: #8b4f58; border-bottom: 2px solid #578198; border-top: 2px solid #578198">Sodabot is a project brought by   <a href="https://github.com/TheSodabotGroup" style="color: #004b87; text-decoration:none; font-weight: bold;text-shadow: -0.5px 0 #ffe6cc, 0 0.5px #ffe6cc, 0.5px 0 #ffe6cc, 0 -0.5px #ffe6cc;">THE SODABOT GROUP</a>    at the Univeristy of Michigan. Code can be found on <a href="https://github.com/TheSodabotGroup/Sodabot_Team8" style="color: #004b87; text-decoration:none; font-weight: bold;text-shadow: -0.5px 0 #ffe6cc, 0 0.5px #ffe6cc, 0.5px 0 #ffe6cc, 0 -0.5px #ffe6cc">Our GitHub Page</a></p>
+
+  <div class="row" style=" text-align: center;">
+    <div class="footercolumn">
+      <a href="https://github.com/TheSodabotGroup/Sodabot_Team8"><img src="images/github.svg" alt = "Gitlogo" class = "hyperImage" style=" height: 45%; width: 45%;transform: translate(0%, 0%);"></a>
+    </div>    
+    <div class="footercolumn">
+      <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/"><img src="images/Rpi.png" alt = "Rpi" class = "hyperImage" style=" height: 60%; width: 60%;transform: translate(0%, -10%);"></a>
+    </div>
+    <div class="footercolumn">
+      <a href="https://robotics.umich.edu/"><img src="images/robotics-social-blue.jpg" alt = "UMRobotics" class = "hyperImage" style="height: 40%; width: 40%;"></a>
+    </div>
+    <div class="footercolumn">
+      <a href="https://beagleboard.org/green"><img src="images/BBG.png" alt = "BBG" class = "hyperImage" style="height: 45%; width: 45%;transform: translate(0%, -5%);"></a>
+    </div>
+    <div class="footercolumn">
+      <a href="https://www.pololu.com/product/1583"><img src="images/motors.jpg" alt = "Pololu" class = "hyperImage" style="height: 60%; width: 60%;transform: translate(0%, 45%);"></a> 
+    </div>
+  </div>
+    
+
+     
+
+      
+
+     
+  </footer>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].style.borderBottom = "5px solid white";
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.style.borderColor = "#8b4f58";
+}
+</script>
+
+
+</body>
+</html>
+
+<!-- https://github.com/lcm-proj/lcm -->
